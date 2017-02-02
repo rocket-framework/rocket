@@ -12,9 +12,9 @@ $env->app(array(
 
 $env->db(array(
 	'drive' => 'mysql',
-    'host'  => 'localhost',
-    'base'  => 'rocket',
-    'user'  => 'root',
+	'host'  => 'localhost',
+	'base'  => 'rocket',
+	'user'  => 'root',
 	'pass'  => 'rocket'
 ));
 
