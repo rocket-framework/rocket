@@ -1,0 +1,12 @@
+/*
+ *
+ * Style Global
+ *
+ */
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: url(../fonts/Lato-Light.ttf);
+}

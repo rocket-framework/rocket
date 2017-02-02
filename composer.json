@@ -1,0 +1,24 @@
+{
+	"name": "rocket-framework/rocket",
+	"description": "micro framework PHP MVC",
+	"type": "project",
+	"version": "1.0",
+	"authors": [
+		{
+			"name":  "Paulo Kalleby",
+			"email": "paulo.devweb@gmail.com",
+			"role":  "owner"
+        }
+    ],
+	"require": {
+		"php": ">6.9"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"autoload": {
+		"psr-4": {
+			"App\\": "app/",
+			"Rocket\\": "vendor/rocket/src"
+		}
+	}
+}

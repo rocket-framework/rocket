@@ -1,0 +1,37 @@
+<?php $erro = $this->getData('erro') ?? '';?>
+	<!DOCTYPE html>
+	<html lang="pt-br">
+
+	<head>
+		<title>Erro SQL</title>
+		<link href="<?=IMG;?>rocket.ico" type="image/x-icon" rel="shortcut icon" />
+		<?=$this->css(['bootstrap.min','primer','style','animate'])?>
+		<style>
+			body {
+				padding-top: 80px;
+				background: #eee;
+			}
+
+			h1 {
+				font-family: 'Lato', sans-serif;
+				font-size: 70px;
+				font-weight: normal;
+				margin-bottom: 20px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 animated bounceInDown">
+					<h1>Erro SQL</h1>
+					<p>
+						<?=$erro;?>
+					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+
+	</html>

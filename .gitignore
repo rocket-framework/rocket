@@ -1,0 +1,6 @@
+!.gitignore
+!/www/.htaccess
+/.idea
+/.brackets.json
+composer.lock
+
